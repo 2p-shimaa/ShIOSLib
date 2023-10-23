@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'ShIOSLib/Classes/**/*'
-  
+  s.swift_versions = '4.0'
   # s.resource_bundles = {
   #   'ShIOSLib' => ['ShIOSLib/Assets/*.png']
   # }
