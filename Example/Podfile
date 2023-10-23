@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ShIOSLib_Example' do
+  pod 'ShIOSLib', :path => '../'
+
+  target 'ShIOSLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
